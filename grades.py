@@ -1,12 +1,11 @@
 import sys
-if len(sys.argv)!=6:
+if len(sys.argv)==6:
   script_name=sys.argv[0]
   sub1=sys.argv[1]
   sub2=sys.argv[2]
   sub3=sys.argv[3]
   sub4=sys.argv[4]
   sub5=sys.argv[5]
-  
 else:
   script_name=sys.argv[0]
   sub1=75
@@ -25,7 +24,6 @@ elif avg >=45:
   grade= "D"
 else:
   grade= "fail"
-
 print("average marks is ",avg)
 print("grade is :",grade)
   
